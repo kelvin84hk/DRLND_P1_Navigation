@@ -75,14 +75,14 @@ UPDATE_EVERY | 4
 Single network structure consists of one input layer, 3 hidden layers and one output layer. Detail is shown in diagram below:
    
    
-   ![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/network1.jpg)
+   ![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/network1.jpg)
     
 ## Dueling network
 
 Dueling network consists of one input layer which is then shared by 2 networks. Each network consist of 3 hidden layers and one output layers. One network is outputting a single value V which represents the state value. The other one is outputing values which number equals to number of actions (4 for this problem). This represnts the advantage function value adv(i) = Q(i)-V for each action. Then the two output layers are linked up to form the final output layers by mathematical operation Q = V+(adv(i)- mean of adv)[https://arxiv.org/abs/1511.06581]. Detail is shown in diagram below:   
 
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/deuling_net.jpg)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/deuling_net.jpg)
 
 # Results
 
@@ -92,29 +92,29 @@ Below are the number of episodes needed to solve the environment and the evoluti
 
 Number of episodes needed to solve the environment : **1145**
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/q.png)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/q.png)
 
 ### Double DQN with sinlge network
 
 Number of episodes needed to solve the environment : **864**
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/dq.png)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/dq.png)
 
 ### DQN with dueling network
 
 Number of episodes needed to solve the environment : **1064**
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/dueling_q.png)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/dueling_q.png)
 
 ### Double DQN with dueling network
 
 Number of episodes needed to solve the environment : **1147**
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/dueling_dq.png)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/dueling_dq.png)
 
 Performance of each algorithms are compared in terms of 100 episodes average score in a 3000 episodes horizon.
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/compare_avg.png)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/compare_avg.png)
 
 *Episode# in chart above is per 100 episodes*
 
@@ -122,7 +122,7 @@ It appears that DQN with dueling structure and Double DQN with single and duelin
 
 Below is an example showing how an agent trained by Double DQN behaves in the environment.
 
-![alt text](https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/dq.gif)
+![alt text](https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/dq.gif)
 
 
 # Ideas for future work
