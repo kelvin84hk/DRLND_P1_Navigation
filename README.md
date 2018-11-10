@@ -1,4 +1,4 @@
-[image1]:https://github.com/kelvin84hk/deep-reinforcement-learning/blob/master/P1_Navigation/pics/dq.gif "Trained Agent"
+[image1]:https://github.com/kelvin84hk/DRLND_P1_Navigation/blob/master/pics/dq.gif "Trained Agent"
 
 
 # Project 1 : Navigation 
