@@ -27,9 +27,9 @@ To download Anaconda, please click the link below:
 
 https://www.anaconda.com/download/
 
-Clone or download and unzip the P1_Navigation folder.
+Clone or download and unzip the DRLND_P1_Navigation folder.
 
-Download by clicking the link below and unzip the environment file under P1_Navigation folder
+Download by clicking the link below and unzip the environment file under DRLND_P1_Navigation folder
 
 https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
 
@@ -51,7 +51,7 @@ To set up your Python environment to run the code in this repository, follow the
   
      https://pytorch.org/get-started/locally/
     
-  3. Then navigate to P1_Navigation/ml-agents-0.4.0b/python and install ml-agent.
+  3. Then navigate to DRLND_P1_Navigation/ml-agents-0.4.0b/python and install ml-agent.
      ```
      pip install .
      ```
